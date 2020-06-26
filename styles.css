@@ -145,16 +145,21 @@ footer {
     top: -16.8vh;
 }
 
-@media only screen and (orientation: portrait) {
-    .float-head {
-        position: absolute;
-        height: 12vh;
-        width: 90%;
-        min-width: 250px;
-        top: 0;
-        margin: auto;
-    }
+.cogsci {
+    float:left;
+    width: 30vw;
+    min-width: 250px;
+    margin: 10px;
+}
 
+@media only screen and (orientation: portrait) {
+    .cogsci {
+        float: none;
+        display: relative;
+        width: 98%;
+        min-width: 250px;
+        margin: 9vh 10px 10px 10px;
+    }
     body {
         text-align: center;
         display: flex;
