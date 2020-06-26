@@ -1,30 +1,23 @@
 <!DOCTYPE html>
 
 <head>
-    <title>Moving research online: Tutorials on running your language and other cognitive research over the Web</title>
+    <title>Cogsci 2020 W6: Workshop on Scaling Cognitive Science</title>
     </title>
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500;900&display=swap" rel="stylesheet">
-    <meta property="og:image" content="./images/pushkin_code.png">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&family=Raleway:wght@700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <div class="float-head">
         <div class="header">
-            <div class="header-title">
-                <a href="#top">
-                    Moving research online: Tutorials on running your language and other cognitive research over the
-                    Web
-                </a>
-            </div>
+            <a href="#top">
+                <div class="header-title">
+                    Cogsci 2020 W6: Workshop on Scaling Cognitive Science<br />
+                    July 29th, 2020
+                </div>
+            </a>
         </div>
-        <nav>
-            <ul>
-                <li><a href="#top">About</a></li>
-                <li><a href="#schedule">Schedule</a></li>
-                <li><a href="#team">Team</a></li>
-            </ul>
-        </nav>
     </div>
 
     <div class="buffer">&nbsp;</div>
@@ -32,283 +25,293 @@
     <div class="center">
 
         <div class="card">
-            <div class="card-title">About</div>
-            <strong>
+            <div style="height:inherit;overflow:hidden;">
+                <div class="card-title">About</div>
+                <img src="./images/CogSci2020-Banner.png" alt="CogSci 2020 Conference Banner"
+                    style="float:left;height: 40vh;min-width: 250px;margin: 10px;">
                 <p>
-                    In response to the COVID-19 crisis, laboratories around the world have ceased in-person human data
-                    collection. In principle, many of these laboratories could run their studies online. With over
-                    4,000,000,000 people online, most populations of interest are reachable.
-                </p>
-                <p>
-                    This workshop serves to help laboratories get their research online, covering the key
-                    technologies necessary as well as best practices when designing for research on the Web. We will
-                    work with the <a href="https://www.jspsych.org/" target="_blank">jsPsych</a> and <a
-                        href="https://pushkin-social-science-at-scale.readthedocs.io/en/latest/index.html"
-                        target="_blank">Pushkin</a> free and open source framework, optimized specifically for building
-                    an online laboratory
-                    for psychological studies.
-                </p>
-                <div class="workshop">
-                    Workshop details:<br />
-                    June 30th-July 30th, 2020<br />
-                    Where: Online (link TBA)<br />
-                    Cost: Free<br />
-                    <a class="register"
-                        href="https://www.eventbrite.com/e/moving-research-online-tutorials-on-running-your-research-over-the-web-tickets-109344544476"
-                        target="_blank">Register</a>
-                    <br />
-                </div>
-            </strong>
-        </div>
-
-        <span id="schedule"></span>
-        <div class="card">
-            <div class="card-title">Schedule</div>
-            <div class="session">
-                <strong><span class="card-subtitle">Session 1: Intro to jsPsych</span><br />
-                    Presentation: 1-3:30pm EST, Tuesday, June 30th, 2020<br />
-                    Q & A: 1-5pm EST, Thursday, July 2nd, 2020<br /></strong>
-                <p>In this session, we will cover the basic technologies necessary to build an online experiment,
-                    including:<br />
-                <ol>
-                    <li>An introduction to HTML, CSS, and JavaScript (the most common basic building blocks of a web
-                        page)
-                    </li>
-                    <li>JavaScript's data types and syntax</li>
-                    <li>jsPsych and how to build a basic "Hello World" page</li>
-                    <li>How to use your browser's developer tools to debug</li>
-                </ol>
+                    The proliferation of web-connected devices has presented
+                    significant opportunities and challenges to cognitive science
+                    — opportunities in that cognitive scientists can collect
+                    data relevant to human cognition orders of magnitude faster
+                    than before, addressing questions that were otherwise impossible
+                    to address; and challenges in that cognitive scientists
+                    require new infrastructure to collect these data and new methods
+                    to analyze them once collected.
                 </p>
                 <p>
-                    We will cover how to build a lexical decision experiment, containing instructions, lexical decision
-                    trials, and a concluding debriefing page. This includes understanding the nature of jsPsych's
-                    plugin-based framework, options for creating and adding trials, and where to go for more
-                    information.
+                    This workshop brings together cognitive scientists who are
+                    at the forefront of these opportunities and challenges in scaling
+                    cognitive science, along with cognitive scientists who
+                    would like to be, to engage in a day of interactive exchange
+                    and development of ideas related to scaling cognitive science.
+                    Each presentation addresses a different opportunity or challenge.
+                    One set of presentations highlights opportunities. A second set
+                    highlights challenges of statistical analysis and data collection.
+                    In a break-out session, attendees address these opportunities and
+                    challenges head on.
                 </p>
-                Relevant resources:
-                <div class="link-list">
-                    <ul>
-                        <li><a href="https://www.jspsych.org/" target="_blank">jsPsych</a></li>
-                        <li><a href="https://www.w3schools.com/html/" target="_blank">HTML</a></li>
-                        <li><a href="https://www.w3schools.com/css/" target="_blank">CSS</a></li>
-                        <li><a href="https://www.w3schools.com/js/" target="_blank">JavaScript</a></li>
-                    </ul>
-                </div>
-            </div>
-            <br />
-
-            <div class="session">
-                <strong><span class="card-subtitle">Session 2: Design, Best Practices, & IRB</span><br />
-                    Presentation: 1-3:30pm EST, Tuesday, July 7th, 2020<br />
-                    Q & A: 1-5pm EST, Thursday, July 9th, 2020<br /></strong>
-                <p>
-                    In this session we will cover key best practices for designing an online experiment. Topics we will
-                    cover include:<br />
-                <ul>
-                    <li>How do I most effectively incentivize subjects to provide high-quality data?</li>
-                    <li>How do I best ensure subject compliance & attention?</li>
-                    <li>How good is timing accuracy, and how does this constrain experiment design?</li>
-                    <li>How long should subject participation last?</li>
-                    <li>If I’m used to observing subject behavior with my own eyes, how can I run online studies?</li>
-                    <li>How do I restrict participation?</li>
-                    <li>Should I restrict participation?</li>
-                    <li>How do I address obtaining consent, protecting privacy, etc?</li>
-                    <li>How do I work with an IRB that is not familiar with online studies?</li>
-                </ul>
-                </p>
-            </div>
-            <br />
-
-            <div class="session">
-                <strong><span class="card-subtitle">Session 3: Advanced jsPsych</span><br />
-                    Presentation: 1-3:30pm EST, Tuesday, July 14th, 2020<br />
-                    Q & A: 1-5pm EST, Thursday, July 16th, 2020<br /></strong>
-                <p>
-                    Following up on Session 1, we will dive deeper into harnessing the features of jsPsych to be able to
-                    create more complicated study design features necessary for most research studies; this includes
-                    dynamically-generated stimuli, performance based branching, and complex condition randomization and
-                    sampling. Core topics will include:<br />
-                <ul>
-                    <li>Functions as parameters (e.g. practice trials show correct/incorrect stimulus based on previous
-                        response)</li>
-                    <li>Timeline variables: randomizing and sampling (e.g. repeating the same type of trial with
-                        differentsets of stimuli)</li>
-                    <li>Conditional and looping behavior (e.g. practice trials repeat if accuracy is below threshold)
-                    </li>
-                    <li>Working with jsPsych data (e.g. showing a performance summary at the end of the task)</li>
-                    <li>A tour of plugin code and how to modify plugins</li>
-                </ul>
-                </p>
+                <p><a href="https://cognitivesciencesociety.org/cogsci-2020/" target="_blank">CogSci Website >>></a></p>
             </div>
 
             <br />
-            <div class="session">
-                <strong><span class="card-subtitle">Session 4: Massive Online Experiments with
-                        Pushkin</span><br />
-                    Presentation: 1-3:30pm EST, Tuesday, July 21st, 2020<br />
-                    Q & A: 1-5pm EST, Thursday, July 23rd, 2020<br /></strong>
-                <p>
-                    Pushkin provides a customizable, scalable ecosystem for massive online psychological experiments. In
-                    this session, we will cover how to set up your online Pushkin-based laboratory and the included
-                    features, including:<br />
-                <ul>
-                    <li>Providing participation incentives, such as results shareable on social media or game-like
-                        features such as earning badges for participation (for users who create an account on the
-                        website)</li>
-                    <li>Scaling to balance spikes in website traffic</li>
-                    <li>Storing results in a database</li>
-                    <li>Robust real-time backups</li>
-                    <li>Supporting mobile, tablet, and desktop devices</li>
-                    <li>Enabling user accounts for longitudinal studies and boosting participant return rates (e.g. for
-                        collecting data for a single participant on multiple studies, with the potential to
-                        cross-analyze results within subjects)</li>
-                    <li>Supporting a forum, where participants may discuss questions and provide feedback on various
-                        aspects of the experiments</li>
-                </ul>
-                The general structure of this session will cover:<br />
-                <ol>
-                    <li>Introduction: What is Pushkin?</li>
-                    <li>How to initialize a Pushkin-enabled project</li>
-                    <li>Learning how to launch Pushkin locally</li>
-                    <li>Exploring the anatomy of Pushkin and how to perform some basic customization</li>
-                    <li>Integrating an existing jsPsych experiment</li>
-                    <li>Version control and using basic Git commands to save work to the online repository</li>
-                    <li>Discussion of how to host a Pushkin website on an external server through Amazon Web Services
-                        (AWS)</li>
 
-                </ol>
-                </p>
-                Relevant resources:
-                <div class="link-list">
-                    <ul>
-                        <li><a href="https://pushkin-social-science-at-scale.readthedocs.io/en/latest/index.html"
-                                target="_blank">Pushkin</a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <br />
-            <div class="session">
-                <strong><span class="card-subtitle">Session 5: Concluding Q & A</span><br />
-                    1-5pm EST, Thursday, July 30th, 2020<br />
-                </strong>
-                <p>
-                    This concluding Q & A will provide an extra opportunity to ask questions about any of the materials
-                    covered in the previous sessions, as well as anything else that might arise.
-                </p>
-                Relevant resources:
-                <div class="link-list">
-                    <ul>
-                        <li><a href="https://github.com/jspsych/jsPsych/discussions" target="_blank">jsPsych discussion
-                                forum</a></li>
-                        <li><a href="https://groups.google.com/forum/#!forum/online-experiments" target="_blank">Online
-                                experiments discussion forum</a></li>
-                    </ul>
-                </div>
-            </div>
-
-        </div>
-
-        <span id="team"></span>
-        <div class="card">
-            <div class="card-title">Team</div>
+            <div class="card-title">Presentations</div>
 
             <div class="person">
                 <img src="images/JH.jpg" class="team-image" alt="Joshua Hartshorne" />
                 <div class="team-text">
-                    <strong>Joshua Hartshorne</strong><br />
-                    Assistant Professor, Boston College<br />
-                    <a href="http://l3atbc.org/" target="_blank">[Website]</a>
+                    <b>Joshua Hartshorne on Scaling Language Studies</b><br />
+                    <a href="http://l3atbc.org/" target="_blank">Website</a>
                     <p>
-                        Joshua Hartshorne is an assistant professor of psychology at Boston College, and the founder of
-                        <a href="http://gameswithwords.org/" target="_blank">GamesWithWords.org</a>. He is broadly
-                        interested in human behavior, with a particular interest in
-                        language and inference. By "inference," he means the application of learned information to make
-                        predictions about a novel situation.
+                        Joshua Hartshorne is an assistant professor of psychology at
+                        Boston College, where he directs the Language Learning Laboratory
+                        Hartshorne is interested in understanding what allows
+                        humans, but not current machines, to learn language —
+                        and why it is that children, despite their salient limitations of
+                        both cognition and experience, are so much more successful
+                        at language learning than adults. Hartshorne is particularly
+                        interested in applying new and emerging methods (such as
+                        computational modeling and crowdsourcing) to core problems
+                        in the language sciences.
+                    </p>
+                    <p>
+                        Hartshorne will introduce the workshop by discussing
+                        opportunities and challenges associated with scaling cognitive
+                        science. Hartshorne will discuss these challenges in the
+                        context of running GamesWithWords.org, a web-based research
+                        laboratory that has tested hundreds of thousands of
+                        participants in a variety of experiments on language and cognition.
+                        Hartshorne will also discuss Pushkin, a platform for
+                        running large-scale online experiments.
                     </p>
                 </div>
-                <br />
             </div>
 
             <div class="person">
-                <img src="images/JDL.jpg" class="team-image" alt="Joshua R. de Leeuw" />
+                <img src="images/AS.jpg" class="team-image" alt="Andrea Simenstad" />
                 <div class="team-text">
-                    <strong>Joshua R. de Leeuw</strong><br />
-                    Assistant Professor, Vassar College<br />
-                    <a href="https://www.vassar.edu/faculty/jdeleeuw/" target="_blank">[Website]</a>
+                    <b>Andrea Simenstad on Scaling the Zooniverse</b><br />
+                    <a href="https://www.zooniverse.org/" target="_blank">Website</a>
+                    </p>
                     <p>
-                        Josh de Leeuw is focused on the development and application of Internet-based tools for the
-                        study of human cognition. He created the widely-used <a href="https://www.jspsych.org/"
-                            target="_blank">jsPsych</a> experiment software for conducting
-                        behavioral experiments online. He uses these tools to study how people learn and represent new
-                        information.
+                        Andrea Simenstad is a developer with the Zooniverse project
+                        at the University of Minnesota, where she collaborates with
+                        researchers, museum professionals, volunteers, and other developers
+                        to create crowdsourced citizen-science research projects
+                        with Zooniverse. Simenstad has a B.A. in cognitive science
+                        from Carleton College.
+                    </p>
+                    <p>
+                        Simenstad will discuss Zooniverse. Zooniverse is the
+                        world’s largest and most popular platform for crowdsourced
+                        citizen-science research, with more than 1,000,000 volunteers.
+                        The goal of the Zooniverse organization is to enable
+                        research that would not be possible, or practical, otherwise.
+                        Zooniverse research results in new discoveries, datasets useful
+                        to the wider research community, and many publications.
                     </p>
                 </div>
-                <br />
             </div>
 
             <div class="person">
-                <img src="images/BG.jpg" class="team-image" alt="Becky Gilbert" />
+                <img src="images/TGu.jpg" class="team-image" alt="Todd Gureckis" />
                 <div class="team-text">
-                    <strong>Becky Gilbert</strong><br />
-                    Investigator Scientist, MRC CBU, University of Cambridge<br />
-                    <a href="https://www.mrc-cbu.cam.ac.uk/people/becky.gilbert/" target="_blank">[Website]</a>
+                    <b>Todd Gureckis on Scaling Brain Data via Behavior</b><br />
+                    <a href="http://gureckislab.org/" target="_blank">Website</a>
+                    </p>
                     <p>
-                        Becky Gilbert is a post-doctoral scientist and web developer at the MRC Cognition and Brain
-                        Sciences Unit in Cambridge, UK. In addition to web-based experiment methods, she's interested in
-                        speech perception, comprehension, and short-term memory for speech.
+                        Todd Gureckis is a professor at New York University,
+                        where he runs the Cognition and Computation lab. The goal
+                        of the lab’s research is to better understand the memory,
+                        learning, and decision processes which allow humans to
+                        carry out intelligent and adaptive behaviors.
+                    </p>
+                    <p>
+                        Gureckis will discuss scaling brain data through behavior.
+                        One goal of computational cognitive neuroscience is to
+                        infer the relationship between latent variables in a cognitive
+                        model and particular features of brain data (e.g., fMRI or
+                        EEG). Typically, the precision of this relationship is constrained
+                        by the amount of brain data that can be collected
+                        (e.g., the number of subjects in a fMRI study). In this talk,
+                        Gureckis will leverage ideas from the statistics literature on
+                        inference with missing data and hierarchical modeling to explore
+                        how one can potentially learn more about a neuroimaging
+                        signal by collecting only additional behavioral data.
                     </p>
                 </div>
-                <br />
             </div>
+
 
             <div class="person">
-                <img src="images/CMB.jpg" class="team-image" alt="Constance Bainbridge" />
+                <img src="images/LR.jpg" class="team-image" alt="Lauren Rutter" />
                 <div class="team-text">
-                    <strong>Constance Bainbridge</strong><br />
-                    Web Developer, Boston College<br />
-                    <a href="http://constancebainbridge.com/" target="_blank">[Website]</a>
+                    <b>Lauren Rutter on Scaling via Mobile Applications</b><br />
+                    <a href="https://psych.indiana.edu/directory/faculty/rutter-lauren.html" target="_blank">Website</a>
+                    </p>
                     <p>
-                        Constance is a web developer, psychology researcher, and musician with a background working with
-                        jsPsych and Pushkin through <a href="https://www.themusiclab.org/" target="_blank">the Music
-                            Lab</a> at Harvard University. Constance is beginning a PhD at UCLA in Communication in Fall
-                        2020, and is passionate about studying how we can harness creative and digital tools to
-                        communicate our moods and identities to connect as social beings.
+                        Lauren Rutter is a Associate Research Scientis in the Department of Psychological and Brain
+                        Sciences at Indiana University. Rutter
+                        studies basic cognitive and affective processes that influence
+                        the etiology and maintenance of internalizing psychopathology
+                        across the lifespan.
+                    </p>
+                    <p>
+                        Rutter will discuss mobile applications for scaling mental-
+                        health assessment as well as large-scale citizen-science
+                        experiments. Rutter will demonstrate that digital technologies
+                        provide benefit to a variety of clinical populations and
+                        participants from the general public to generate scientific insights
+                        that would not have been possible with traditional
+                        models.
                     </p>
                 </div>
-                <br />
             </div>
+
 
             <div class="person">
-                <img src="images/PR.jpg" class="team-image" alt="Parker Robbins" />
+                <img src="images/TGr.jpg" class="team-image" alt="Tom Griffiths" />
                 <div class="team-text">
-                    <strong>Parker Robbins</strong><br />
-                    Research Assistant, Boston College<br />
+                    <b>Tom Griffiths on Scaling Cognitive Science</b><br />
+                    <a href="http://cocosci.princeton.edu/" target="_blank">Website</a>
+                    </p>
                     <p>
-                        Parker is a postbaccalaureate research assistant in the Language Learning Lab at Boston College.
-                        He is interested in using web-based experimental methods to bring a larger and more diverse pool
-                        of research participants to language science. In particular, he would like to use these methods
-                        to investigate the morphology and syntax of understudied languages and to contribute to the
-                        language documentation efforts of endangered language communities.
+                        Thomas Griffiths is a professor of psychology and computer
+                        science at Princeton University, where he leads the Computational
+                        Cognitive Science group. Griffiths’ research focuses
+                        on developing mathematical models of higher-level cognition
+                        and understanding the formal principles that underlie our
+                        ability to solve the computational problems we face in everyday
+                        life.
+                    </p>
+                    <p>
+                        Griffiths will introduce the workshop by discussing opportunities
+                        and challenges associated with scaling cognitive
+                        science. Griffiths will discuss how novel approaches to data
+                        collection and analysis — particularly “big data” — can
+                        change psychological research.
                     </p>
                 </div>
             </div>
 
+
+            <div class="person">
+                <img src="images/JHo.jpg" class="team-image" alt="James Houghton" />
+                <div class="team-text">
+                    <b>James Houghton on Scaling Social Cognition</b><br />
+                    <a href="http://www.jamesphoughton.com/" target="_blank">Website</a>
+                    </p>
+                    <p>
+                        James Houghton is a doctoral candidate at the MIT Sloan
+                        School of Management. He explores the mechanisms and
+                        outcomes of social contagion using a combination of data science
+                        and massive online experimentation, informed by rigorous
+                        simulation-based theory building.
+                    </p>
+                    <p>
+                        Houghton will discuss the Empirica platform in the context
+                        of his research on social contagion. Social contagion research
+                        has for decades explored the effect of social network
+                        structure on the adoption of a single belief or practice. However,
+                        new theoretical models show that interaction between
+                        diffusants has a strong influence on their patterns of adoption.
+                        Houghton will present an experimental design called the ‘detective
+                        game’ for studying the diffusion of interacting beliefs
+                        in a controlled setting, explaining how an online laboratory
+                        experiment handles the confounds of pre-existing biases and
+                        meanings while cost-effectively achieving the scale necessary
+                        to draw statistical inferences.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="person">
+                <p>
+                    <img src="images/JP.jpg" class="team-image" alt="Joshua Peterson" />
+                </p>
+                <div class="team-text">
+                    <b>Joshua Peterson on Scaling Choices and Categories</b><br />
+                    <a href="http://cocosci.princeton.edu/jpeterson/" target="_blank">Website</a>
+                    </p>
+                    <p>
+                        Josh Peterson is a postdoctoral fellow at Princeton University,
+                        where he studies the relationship between the representations
+                        learned by deep neural networks and those learned
+                        by people.
+                    </p>
+                    <p>
+                        Peterson will discuss scaling research on decision making
+                        and categorization. Technological advances have made
+                        it possible to observe human behavior at an unprecedented
+                        scale, and the massive datasets that result provide two exciting
+                        new tools for cognitive modeling. First, such datasets
+                        serve as a test of the generalizability of our models and theories
+                        and therefore have the potential to improve them. Second,
+                        they offer the essential fuel for training machine learning
+                        models. Peterson will present case studies within two of
+                        the oldest modeling paradigms in cognitive science: categorization
+                        and decision making.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="person">
+                <img src="images/MA.jpg" class="team-image" alt="Mayank Agrawal" />
+                <div class="team-text">
+                    <b>Mayank Agrawal on Scaling Moral Decisions</b><br />
+                    <a href="https://timshell.github.io/" target="_blank">Website</a>
+                    </p>
+                    <p>
+                        Mayank Agrawal is a doctoral student in psychology and neuroscience
+                        at Princeton University. Agrawal is interested in
+                        building formal computational models to understand how humans
+                        learn and make decisions.
+                    </p>
+                    <p>
+                        Agrawal will discuss scaling studies of moral decision
+                        making. Standard methods of exploratory data analysis are
+                        vulnerable to noise in large datasets. To combat this problem,
+                        he proposes a methodology called Scientific Regret Minimization,
+                        which focuses on minimizing errors with respect to
+                        the data that are predictable. Agrawal applies this methodology
+                        to large datasets in the domains of moral reasoning and
+                        economic choice, and demonstrates how this approach helps
+                        build powerfully predictive (and interpretable) models and
+                        identify interesting new phenomena.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="person">
+                <img src="images/JS.jpg" class="team-image" alt="Jordan Suchow" />
+                <div class="team-text">
+                    <b>Jordan Suchow on Scaling Experiment Design</b><br />
+                    <a href="https://suchow.io/" target="_blank">Website</a>
+                    <p>
+                        Jordan Suchow is an assistant professor at Stevens Institute
+                        of Technology, where he runs the Cognition Lab, which focuses
+                        on computational models of human learning, memory,
+                        and decision-making. As part of DARPA’s Next Generation
+                        Social Science program, Suchow led a team to develop <a
+                            href="http://docs.dallinger.io/en/latest/" target="_blank">Dallinger</a>,
+                        an online experimental platform for running behavioral
+                        and social science experiments at the scales necessary
+                        to understand emergent social phenomena.
+                    </p>
+                    <p>
+                        Suchow will discuss Dallinger and associated techniques
+                        for experiment design at scale.
+                    </p>
+                </div>
+            </div>
         </div>
 
-        <div class="card" style="display: flex;justify-content: center;align-items: center">
-            <img src="images/NSF.png" style="float:left;width:100px">
-            <div style="padding-left:10px">
-                This workshop is made possible by support for Linguistics and Perception, Action, & Cogition at NSF (<a
-                    href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2029637&HistoricalAwards=false"
-                    target="_blank">#2029637</a> & <a
-                    href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2029640&HistoricalAwards=false"
-                    target="_blank">#2029640</a>).
-            </div>
-        </div>
-    </div>
+        <footer>&copy; 2020</footer>
 
-    <footer>&copy; 2020</footer>
 </body>
 
 </html>
